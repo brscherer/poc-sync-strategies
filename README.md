@@ -14,7 +14,7 @@ Then, open your terminal and go to the folder you want to install this project a
 
 Main application will be running on `http://localhost:3001` and the node server will be running on `http://localhost:8080`
 
-## To give some context...
+## 👣 To give some context...
 
 But in this case, what do we mean by Synchronization Strategy?
 

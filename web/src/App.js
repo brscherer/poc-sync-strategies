@@ -34,7 +34,6 @@ const App = () => {
       })
       .catch(() => {
         setTodoList((list) => list.splice(-1, 1));
-        setIsLoading(false);
       });
   };
 
