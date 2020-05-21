@@ -1,0 +1,38 @@
+.container {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+
+  width: 100vw;
+  height: 100vh;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: grid;
+  place-items: center center;
+
+  z-index: 99;
+}
+
+.spinner {
+  animation: spin 0.5s linear infinite;
+  transform: translateZ(0);
+
+  border: 8px solid rgba(0, 0, 0, 0.3);
+  border-left-color: white;
+  background: transparent;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
